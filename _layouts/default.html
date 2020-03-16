@@ -8,15 +8,20 @@
     {% include about.html %}
 
     {% if site.contact == "static" %}
-    {% include contact_static.html %}
+       {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
+       {% include contact_disqus.html %}
+    {% elsif site.contact == "formsubmit" %}
+       {% include contact_formsubmit.html %}
     {% else %}
-    {% include contact.html %}
+       {% include contact.html %}
     {% endif %}
 
     {% include footer.html %}
+    {% include site_posts.html %}
+<!--
     {% include modals.html %}
+-->
     {% include js.html %}
     </body>
 </html>

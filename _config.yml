@@ -1,11 +1,12 @@
 # Site settings
 title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+email: lorenzo@pattori.com
+url: https://lpattori.github.io
+description: "Passionate about innovation and new business generation. Building highly motivated teams to develop industry break through solutions."
+description2: "Software Engineer & MBA. Developing Deep Learning Models to create new business opportunities in the medical an the consumer market. Enjoy running and tennis."
+keywords: "Sofware Engineer, Artificial Intelligence, Deep Learning"
+skills: "Sofware Engineer - Artificial Intelligence - Deep Learning"
+meta_author: Pattori lorenzo
 
 # Google webmaster tools
 google_verify:
@@ -15,9 +16,10 @@ bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
+# - formsubmit: to be added   https://formsubmit.co/
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+contact: formsubmit
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -32,7 +34,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Lorenzo Pattori
   location: Location
   social: Around the Web
   credits: Credits
@@ -40,23 +42,19 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/lpattori
+  - title: linkedin
+    url: http://www.linkedin.com/in/pattori
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/lpattori
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Buenos Aires
+  - line: Argentina
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Site developed with Freelancer an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

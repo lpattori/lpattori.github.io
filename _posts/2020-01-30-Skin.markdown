@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 3
+date: 2020-01-30
+img: skin.png
+alt: image-alt
+project-date: April 2014
+client:
+category: Image Classification Deep Learning
+short_description: Skin Cancer Classifier
+url-docs: "https://blog.pattori.com/skin"
+url-demo: "https://skinl.herokuapp.com"
+is-slow: true
+description: From a skin image the model will classify the lesion as the most similar pathologies. The Deep Learning module has been trained with the HAM10000 2018 ISIC dermoscopic images, achieving 92,3% accuracy.
+
+---

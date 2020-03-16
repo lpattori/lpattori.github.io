@@ -11,6 +11,8 @@
             <div class="row">
                 {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
+                        <div align="center" style="font-size:160%;">{{ post.short_description }}
+                        </div>
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
