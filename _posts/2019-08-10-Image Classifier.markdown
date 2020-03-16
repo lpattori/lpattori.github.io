@@ -11,6 +11,6 @@ short_description: Image classifier for AI projects
 url-docs:
 url-demo: "https://lpattori.pythonanywhere.com/photologue/photo/"
 is-slow: false
-description: Program to aid in correct data labeling for Neural networks. Accepts multiple and single labels. It can generate a CSV file with the labels.   
+description: Program to enable correct data labeling for Neural networks. Accepts multiple and single labels. It can generate a CSV file with the labels.   
 
 ---

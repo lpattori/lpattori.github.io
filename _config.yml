@@ -54,7 +54,7 @@ address:
   - line: Argentina
 
 # Credits content
-credits: 'Site developed with Freelancer an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Site developed with Freelancer Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
