@@ -7,7 +7,7 @@ alt: image-alt
 project-date: June 2019
 client:
 category: Image Classification Deep Learning
-short_description: Skin Cancer Classifier
+short_description: Skin Cancer lesion Classifier
 url-docs: "https://blog.pattori.com/skin"
 url-demo: "https://skinl.herokuapp.com"
 is-slow: true
