@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-date: 2019-08-10
+date: 2019-05-10
 img: image_classifier.png
 alt: image-alt
 project-date: May 2019
