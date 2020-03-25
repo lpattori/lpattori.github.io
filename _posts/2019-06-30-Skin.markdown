@@ -6,6 +6,7 @@ img: skin.png
 alt: image-alt
 project-date: June 2019
 client:
+client-url:
 category: Image Classification Deep Learning
 short_description: Skin Cancer lesion Classifier
 url-docs: "https://blog.pattori.com/skin"
