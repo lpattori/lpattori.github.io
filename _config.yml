@@ -42,12 +42,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/lpattori
   - title: linkedin
     url: http://www.linkedin.com/in/pattori
   - title: github
     url: http://github.com/lpattori
+  - title: twitter
+    url: http://twitter.com/lpattori
 
 # Postal address (add as many lines as necessary)
 address:
@@ -55,7 +55,7 @@ address:
   - line: Argentina
 
 # Credits content
-credits: 'Site developed with Freelancer Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Photos by <b><i>Sofía</b></i><br>Designed by <b><i>Fer</b></i>'
 
 # Build settings
 markdown: kramdown
