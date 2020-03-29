@@ -19,15 +19,17 @@
                                 <p align=left>{{ post.description }}</p>
                             {% endif %}
                             {% if post.url-docs %}
-                                <a href="{{ post.url-docs }}" type="button" class="btn btn-primary">Documentation</a>
+                                <a href="{{ post.url-docs }}" type="button" class="btn btn-primary">Docs</a>
                             {% endif %}
                             {% if post.url-demo %}
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                {% if post.is-slow%}
-                                    {% include demo_button.html link= post.url-demo %}
-                                {% else %}
-                                    <a href="{{ post.url-demo }}" type="button" class="btn btn-primary">Launch Demo</a>
-                                {% endif %}
+                                <a href="{{ post.url-demo }}" type="button" class="btn btn-primary">
+                                  {% if post.is-slow%}
+                                    Demo loads in 30/60&rsquo;
+                                  {% else %}
+                                    Launch Demo
+                                  {% endif %}
+                                </a>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
