@@ -19,7 +19,12 @@
                                 <p align=left>{{ post.description }}</p>
                             {% endif %}
                             {% if post.url-docs %}
-                                <a href="{{ post.url-docs }}" type="button" class="btn btn-primary">Docs</a>
+                                <a href="{{ post.url-docs }}" type="button" class="btn btn-primary">
+                                    {% if post.is-paper %}
+                                    Paper</a>
+                                    {% else %}
+                                        Docs</a>
+                                    {% endif %}
                             {% endif %}
                             {% if post.url-demo %}
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
